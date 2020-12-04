@@ -111,6 +111,8 @@
 # >>> 京喜金牌厂长
 京喜金牌厂长 = type=cron,cronexp="30 10 * * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_story.js
 
+# >>> 京喜财富岛
+京喜财富岛 = type=cron,cronexp="30 30 23 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/MoPoQAQ/Script/main/Me/jx_cfd.js
 # > 临时活动
 # >>> 排行榜 (2020.12.31结束)
 排行榜 = type=cron,cronexp="0 13 9 * * *", wake-system=1, timeout=600, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js
