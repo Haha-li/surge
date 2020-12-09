@@ -145,6 +145,8 @@
 # >>> 苹果抽奖机 (2020.12.14结束)
 苹果抽奖机 = type=cron,cronexp="0 16 4 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_apple_live.js
 
+# >>> PUBG (2020.12.13结束)
+PUBG = type=cron,cronexp="0 17 2 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pubg.js
 
 [MITM]
 hostname = %APPEND% api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com
