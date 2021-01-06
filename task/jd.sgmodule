@@ -155,6 +155,9 @@
 # >>> 京东直播
 京东直播 = type=cron,cronexp="0 10-20/5 12 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live.js
 
+# >>> 京东汽车兑换
+京东汽车兑换 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=2000,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car_exchange.js
+
 # >>> crazyJoy任务
 crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy.js
 
