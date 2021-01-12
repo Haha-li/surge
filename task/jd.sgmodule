@@ -162,5 +162,8 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=600,scr
 # >>> 京喜签到
 京喜签到 = type=cron,cronexp="5 0 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jx_sign.js
 
+# >>> 盲盒抽京豆
+盲盒抽京豆 = type=cron,cronexp="1 7 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js
+
 [MITM]
 hostname = %APPEND% api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com
