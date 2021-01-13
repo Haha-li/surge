@@ -19,10 +19,13 @@ DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
 DOMAIN-SUFFIX,hulustream.com
 # NAME: CBS
+DOMAIN-SUFFIX,theplatform.com
+DOMAIN-KEYWORD,cbs
 DOMAIN-SUFFIX,cbs
 DOMAIN-SUFFIX,cbs.com
 DOMAIN-SUFFIX,cbsaavideo.com
 DOMAIN-SUFFIX,cbscorporation.com
+DOMAIN-SUFFIX,penthera.com
 DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbsi.video
 DOMAIN-SUFFIX,cbsiam.com
