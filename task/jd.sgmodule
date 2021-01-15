@@ -116,9 +116,6 @@
 # >>> 京东汽车
 京东汽车 = type=cron,cronexp="0 10 7 * * *",wake-system=1,timeout=600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_car.js
 
-# >>> 京东健康
-京东健康 = type=cron,cronexp="0 10 23 * * *",wake-system=1,timeout=600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_jdh.js
-
 # >>> 新店福利
 新店福利 = type=cron,cronexp="0 10 2 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_new_shop.js
 
