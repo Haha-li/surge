@@ -63,7 +63,7 @@
 进店领豆 = type=cron,cronexp="30 10 0 * * *", wake-system=1, timeout=600, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_shop.js
 
 # >>> 抽奖机 {00:11}
-抽奖机 = type=cron,cronexp="0 11 0 * * *",wake-system=1, timeout=600, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js
+抽奖机 = type=cron,cronexp="0 11 0 * * *",wake-system=1, timeout=600, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_lotteryMachine.js
 
 # >>> 天天加速 {1-23/2:05}
 天天加速 = type=cron, cronexp="0 5 1-23/2 * * *", wake-system=1, timeout=600, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_speed.js
@@ -129,14 +129,14 @@
 京喜工厂plus = type=cron,cronexp="0 0 1,18 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory_component.js
 
 # >>> 京喜签到
-京喜签到 = type=cron,cronexp="0 1 9 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js
+京喜签到 = type=cron,cronexp="0 1 9 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jx_sign.js
 
 # >>> 京喜农场
 京喜农场 = type=cron,cronexp="0 0 9,12,18 * * *",timeout=600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_jxnc.js
 京喜农场cookie = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_nc.cookie.js
 
 # >>> 排行榜
-排行榜 = type=cron,cronexp="0 13 9 * * *", wake-system=1, timeout=600, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js
+排行榜 = type=cron,cronexp="0 13 9 * * *", wake-system=1, timeout=600, script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_rankingList.js
 
 # >>> 口袋书店
 口袋书店 = type=cron,cronexp="0 1 8,12,18 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_bookshop.js
