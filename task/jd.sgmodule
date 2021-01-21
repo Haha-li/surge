@@ -174,9 +174,6 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=600,scr
 # >>> 超级直播间幸运值抽京豆
 超级直播间幸运值抽京豆 = type=cron,cronexp="10 20 15 1 *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh_super.js
 
-# >>> 神券京豆
-神券京豆 = type=cron,cronexp="1 7 13 1 *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_super_coupon.js
-
 # >>> 小鸽有礼
 小鸽有礼 = type=cron,cronexp="5 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js
 
