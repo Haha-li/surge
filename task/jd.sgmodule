@@ -163,16 +163,16 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=600,scr
 年兽 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/activity/jd_collectProduceScore.js
 
 # >>> 京东秒秒币
-京东秒秒币 = type=cron,cronexp="1 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_ms.js
+京东秒秒币 = type=cron,cronexp="6 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_ms.js
 
 # >>> 盲盒抽京豆
-盲盒抽京豆 = type=cron,cronexp="1 7 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js
+盲盒抽京豆 = type=cron,cronexp="42 7 * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh.js
 
 # >>> 直播间红包雨
 直播间红包雨 = type=cron,cronexp="0,1 19-21/1 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain2.js
 
 # >>> 超级直播间幸运值抽京豆
-超级直播间幸运值抽京豆 = type=cron,cronexp="10 20 15 1 *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh_super.js
+超级直播间幸运值抽京豆 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh_super.js
 
 # >>> 小鸽有礼
 小鸽有礼 = type=cron,cronexp="5 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js
