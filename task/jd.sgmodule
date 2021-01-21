@@ -159,6 +159,9 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=600,scr
 # >>> 京东神仙书院
 京东神仙书院 = type=cron,cronexp="37 7 * * *",wake-system=1,timeout=2000,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_immortal.js
 
+# >>> 年兽
+年兽 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/activity/jd_collectProduceScore.js
+
 # >>> 京东秒秒币
 京东秒秒币 = type=cron,cronexp="1 7 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_ms.js
 
