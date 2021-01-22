@@ -161,8 +161,6 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=3600,sc
 
 # >>> 年兽
 年兽 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nianCollect.js
-京东炸年兽AR = type=cron,cronexp="7 9 * * *",wake-system=1,timeout=36000,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_ar.js
-京东炸年兽签到任务🧨 = type=cron,cronexp="33 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_sign.js
 京东炸年兽小程序🧨 = type=cron,cronexp="50 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_nian_wechat.js
 
 # >>> 超级直播间红包雨
@@ -179,6 +177,9 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=3600,sc
 
 # >>> 超级直播间幸运值抽京豆
 超级直播间幸运值抽京豆 = type=cron,cronexp="1 8,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh_super.js
+
+# >>> 宝洁美发屋
+宝洁美发屋 = type=cron,cronexp="1 8,9 14-31/1 1 *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js
 
 # >>> 小鸽有礼
 小鸽有礼 = type=cron,cronexp="5 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js
