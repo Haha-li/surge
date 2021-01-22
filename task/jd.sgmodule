@@ -101,9 +101,6 @@
 # >>> 京东白条
 京东白条 = type=cron, cronexp="0 0 19 * * *", wake-system=1,timeout=3600, script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js
 
-# >>> 京喜金牌厂长
-京喜金牌厂长 = type=cron,cronexp="30 10 * * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_story.js
-
 # >>> 京喜财富岛
 京喜财富岛 = type=cron,cronexp="30 30 23 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/MoPoQAQ/Script/e864e3f995ac474cf2bb6dda8984b2be89e041f0/Me/jx_cfd.js
 
