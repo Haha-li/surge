@@ -119,9 +119,6 @@
 # >>> 京东泡泡大战
 京东泡泡大战 = type=cron,cronexp="0 23 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/799953468/Quantumult-X/master/Scripts/JD/jd_paopao.js
 
-# >>> 京东example
-京东example = type=cron,cronexp="0 12 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_example.js
-
 # >>> 京喜工厂plus
 京喜工厂plus = type=cron,cronexp="0 0 1,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory_component.js
 
@@ -183,6 +180,12 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=3600,sc
 
 # >>> 小鸽有礼
 小鸽有礼 = type=cron,cronexp="5 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_xg.js
+
+# >>> 源头好物红包
+源头好物红包 = type=cron,cronexp="0 0 * * * ",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_coupon.js
+
+# >>> 京东手机年终奖
+京东手机年终奖 = type=cron,cronexp="17 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_festival.js
 
 [MITM]
 hostname = %APPEND% api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com
