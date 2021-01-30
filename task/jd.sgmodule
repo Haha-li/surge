@@ -186,8 +186,8 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=3600,sc
 # >>> 5G狂欢城
 5G狂欢城 = type=cron,cronexp="0 0,6,12,18 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_5g.js
 
-# >>> 直播红包雨
-直播红包雨 = type=cron,cronexp="30,31 20-23/1 * * *",wake-system=1,timeout=3600,script-path=http://qnn9kdmd1.hn-bkt.clouddn.com/jd_live_redrain.js
+# >>> 京东手机狂欢城
+京东手机狂欢城 = type=cron,cronexp="0 0-18/6 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_818.js
 
 [MITM]
 hostname = %APPEND% api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com
