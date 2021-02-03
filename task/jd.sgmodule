@@ -146,10 +146,6 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=3600,sc
 # >>> 京东神仙书院
 京东神仙书院 = type=cron,cronexp="37 7 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_immortal.js
 
-# >>> 年兽
-年兽 = type=cron,cronexp="20 * * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nianCollect.js
-京东炸年兽小程序🧨 = type=cron,cronexp="50 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nian_wechat.js
-
 # >>> 闪购盲盒
 闪购盲盒 = type=cron,cronexp="20 8 * * *",wake-system=1,timeout=3600,script-path=https://gitee.com/lxk0301/jd_scripts/raw/master/jd_sgmh.js
 
