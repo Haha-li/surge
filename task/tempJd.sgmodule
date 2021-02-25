@@ -15,7 +15,7 @@
 获取互助码 = type=cron,cronexp="20 13 * * 6",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_get_share_code.js
 
 # >>> 获取多账号京东Cookie
-获取多账号京东Cookie = type=http-request,pattern=^https:\/\/wq\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,requires-body=1,max-size=0,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js,script-update-interval=0
+获取多账号京东Cookie = type=http-request,pattern=^https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion,requires-body=1,max-size=0,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js,script-update-interval=0
 
 # > 游戏京豆系列
 # >>> 兑换类
@@ -172,4 +172,4 @@ PLUS会员盲盒抽京豆 = type=cron,cronexp="15 8 * * *",wake-system=1,timeout
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js
 
 [MITM]
-hostname = %APPEND% api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com, account.huami.com
+hostname = %APPEND% api.m.jd.com, jdjoy.jd.com, draw.jdfcloud.com, account.huami.com, me-api.jd.com
