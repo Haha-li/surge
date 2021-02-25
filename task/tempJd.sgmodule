@@ -165,7 +165,7 @@ PLUS会员盲盒抽京豆 = type=cron,cronexp="15 8 * * *",wake-system=1,timeout
 京东极速版红包 = type=cron,cronexp="0 0 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_redpocke.js
 
 # >>> 京东极速版
-京东极速版 = type=cron,cronexp="0 7 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_sign.js
+京东极速版 = type=cron,cronexp="6 4 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_speed_sign.js
 
 # >>> 小米运动
 小米运动 = type=cron,cronexp="15 20 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js
