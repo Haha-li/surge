@@ -153,7 +153,7 @@ crazyJoy任务 = type=cron,cronexp="30 10 4 * * *",wake-system=1,timeout=3600,sc
 小鸽有礼2 = type=cron,cronexp="30 7 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xgyl.js
 
 # >>> 女装盲盒
-女装盲盒 = type=cron,cronexp="5 7 19-25 2 *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js
+女装盲盒 = type=cron,cronexp="0 8 1-8/1,27,28 2,3 *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_nzmh.js
 
 # >>> 京东国际盲盒
 京东国际盲盒 = type=cron,cronexp="0 9,12,20,21 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_global_mh.js
