@@ -1,0 +1,10 @@
+#!name=iOS TT
+#!desc=iOS TT语音
+
+[Script]
+
+TT语音 = type=http-request,pattern=https://node.52tt.com/activity-production/new-user-month-checkin/activity.Checkin/checkin,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/TT.js,script-update-interval=0
+TT语音 = type=cron, cronexp="31 11 * * *", wake-system=1, timeout=3600, script-path=https://raw.githubusercontent.com/ZhiYi-N/Private-Script/master/Scripts/TT.js
+
+[MITM]
+hostname = %APPEND% node.52tt.com
