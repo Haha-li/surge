@@ -166,6 +166,9 @@ PLUS会员盲盒抽京豆 = type=cron,cronexp="15 8 * * *",wake-system=1,timeout
 # >>> 京喜财富岛
 京喜财富岛 = type=cron,cronexp="30 8,13,19 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cfd.js
 
+# >>> 京小兑
+京小兑 = type=cron,cronexp="30 10 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxd.js
+
 # >>> 小米运动
 小米运动 = type=cron,cronexp="15 20 * * *",wake-system=1,timeout=3600,script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js
 小米运动获取Token = type=http-response,pattern=^https:\/\/account\.huami\.com\/v2\/client\/login, requires-body=1, max-size=0, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js
