@@ -8,6 +8,10 @@
 # >>>>> 第二次执行,可以执行完毕 {00:04}
 东东超市——第二次兑换京豆 = type=cron, cronexp="0 4 0 * * *", wake-system=1, timeout=3600, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js
 
+# >>>>> 宠汪汪积分兑换
+宠汪汪积分兑换京豆1 = type=cron, cronexp="3 0 0,8,16 * * *", wake-system=1, timeout=3600, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js
+宠汪汪积分兑换京豆2 = type=cron, cronexp="15 0 16 * * *", wake-system=1, timeout=3600, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js
+
 # >>>>> 汽车兑换
 汽车兑换 = type=cron, cronexp="0,1,58,59 0,59 0,23 * * *", wake-system=1, timeout=3600, script-path=https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js
 
