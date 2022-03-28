@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,Emby.media
 DOMAIN-SUFFIX,line.emby.men
 IP-CIDR,91.189.184.116/22,no-resolve
+IP-CIDR,211.20.56.42/22
 # > 流媒体emby-nexitally服务器
 DOMAIN,emby.nexitally.com
 
